@@ -1,0 +1,84 @@
+.cItemContainer {
+  display: flex;
+  width: 97%;
+  min-height: 150px;
+  background-color: white;
+  border-radius: 16px;
+  margin: 1% 0;
+  overflow: hidden;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.cartImage {
+  width: 25%;
+  flex: 1;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cartTitle {
+  font-weight: 500;
+  color: #454545;
+  font-size: 15px;
+  padding: 10px;
+  display: flex;
+  align-items: left;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex: 2;
+}
+
+.cartQ {
+  padding: 10px 10px 10px 0;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ff6000;
+  flex: 2;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.qCon {
+  margin-bottom: 5px;
+  font-size: 18px;
+  width: 150%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.qBtn {
+  align-items: center;
+  justify-content: center;
+  color: #ffe6c7;
+  width: 35px;
+  height: 35px;
+  font-size: larger;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff6000;
+  padding: 5px;
+}
+
+.qBtn:hover {
+  background-color: #ffa559;
+  color: #ff6000;
+}
+
+.cartTitleName {
+  display: flex;
+  font-size: 22px;
+  color: #ff6000;
+}
+
+.quan {
+  color: #ffa559;
+  margin-top: 4px;
+}
+
+.cartPrice {
+  font-size: 25px;
+}
